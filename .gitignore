@@ -1,0 +1,7 @@
+.build/
+libs/
+*.apk
+*.idsig
+*.jks
+*.keystore
+__pycache__/

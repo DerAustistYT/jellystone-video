@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.jellylegacy.videostone">
+  <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="28" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:label="JellyStone Video" android:theme="@android:style/Theme.Black" android:allowBackup="false">
+    <activity android:name="org.jellylegacy.stoneage.MoviesActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+    <activity android:name="org.jellylegacy.stoneage.VideoPlayer" android:screenOrientation="landscape" android:exported="false" />
+  </application>
+</manifest>
