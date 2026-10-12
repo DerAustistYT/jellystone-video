@@ -25,6 +25,8 @@ Server transcoding requests H.264 baseline, up to 320×240, 15 fps and 250 kb/s,
 
 ![Movie library on Galaxy S2](docs/screenshots/movies-s2.png)
 
+The screenshot was captured during testing before the display-name change to JellyStone Video.
+
 The S2's hardware video overlay does not appear in ADB framebuffer screenshots, so the library is shown here.
 
 ## Build
